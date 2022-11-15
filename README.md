@@ -1,6 +1,6 @@
 linux programmes
 
-%sum of n numbers%
+sum of n numbers
 #!bin/bash
 echo "Welcome to Sum of N number Calculation"
 echo "enter the limit:"
@@ -13,7 +13,7 @@ done
 echo "Sum upto" $a "Numbers is:"$sum
 
 
-%greatest of 3 numbers%
+greatest of 3 numbers
 #!/bin/bash
 echo "Enter teh first number:"
 read a
@@ -32,7 +32,7 @@ else
 fi
 
 
-%alu%
+alu
 #!/bin/bash
 echo "Enter which arithmetic you have to perform :"
 read n
@@ -59,7 +59,7 @@ echo "$a / $b = $ans"
 fi
 
 
-%factorial of n%
+factorial of n
 #!bin/bash
 echo "Welcome to Factorial Calculation"
 echo "Enter a Number:"
@@ -72,7 +72,7 @@ done
 echo "Factorial of" $n "is:" $fact
 
 
-%fibonacci series%
+fibonacci series
 #!bin/bash
 echo "Welcome to Fibonacci Series"
 echo "Enter teh limit:"
