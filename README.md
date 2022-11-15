@@ -1,5 +1,5 @@
 # linux
-[greaterof3]:-
+[greaterof3]
 {#!/bin/bash                                                                                                             
 echo "Enter teh first number:"                                                                                          
 read a                                                                                                                  
@@ -17,7 +17,7 @@ else
         echo "The Greater Number is:" $c                                                                                
 fi}
 
-[sumn]:-
+[sumn]
 {#!/bin/bash                                                                                                             
 echo "Enter teh first number:"                                                                                          
 read a                                                                                                                  
@@ -46,7 +46,7 @@ do
 done                                                                                                                    
 echo "Sum upto" $a "Numbers is:"$sum}
 
-[alu]:-
+[alu]
 {#!/bin/bash                                                                                                             
 echo "Enter which arithmetic you have to perform :"                                                                     
 read n                                                                                                                  
@@ -72,7 +72,7 @@ ans=`expr $a / $b`
 echo "$a / $b = $ans"                                                                                                   
 fi}
 
-[factorial]:-
+[factorial]
 {#!bin/bash                                                                                                              
 echo "Welcome to Factorial Calculation"                                                                                 
 echo "Enter a Number:"                                                                                                  
@@ -84,7 +84,7 @@ do
 done                                                                                                                    
 echo "Factorial of" $n "is:" $fact}
 
-[fibonacci]:-
+[fibonacci]
 {#!bin/bash                                                                                                              
 echo "Welcome to Fibonacci Series"                                                                                      
 echo "Enter teh limit:"                                                                                                 
